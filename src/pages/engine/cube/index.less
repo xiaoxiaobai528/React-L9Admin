@@ -1,0 +1,134 @@
+
+.normal {
+  position: absolute;
+  /*绝对定位*/
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left:2px;
+  //border: 1px solid red;/* 使用边框，区分内容*/    
+  //overflow-y: scroll;/*显示y轴滚动条*/
+  //overflow-x: scroll;/*隐藏x轴滚动条scroll hidden*/  
+}
+
+.cubeLeft {
+  position: absolute;
+  /*绝对定位*/
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left:4px;
+  width: 200px;
+  background-color: white;
+  //border: 1px solid white;/* 使用边框，区分内容*/    
+  //overflow-y: scroll;/*显示y轴滚动条*/
+  //overflow-x: scroll;/*隐藏x轴滚动条scroll hidden*/  
+}
+
+.cubeContent {
+  position: absolute;
+  /*绝对定位*/
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left:208px;
+  background-color: white;
+  //border: 1px solid white;
+  //background-color: red;
+  //border: 1px solid red;/* 使用边框，区分内容*/    
+  //overflow-y: scroll;/*显示y轴滚动条*/
+  //overflow-x: scroll;/*隐藏x轴滚动条scroll hidden*/  
+}
+.treeDiv{
+  position: absolute;
+  /*绝对定位*/
+  top: 80px;
+  right: 4px;
+  bottom: 4px;
+  left:208px;
+  background-color: white;
+  left :0px;
+  //background-color: red;
+  //border: 1px solid red;/* 使用边框，区分内容*/    
+  overflow-y: auto;/*显示y轴滚动条*/
+  overflow-x: hidden;/*隐藏x轴滚动条scroll hidden*/ 
+  scrollbar-arrow-color: rgb(255,255,255); /**//*三角箭头的颜色*/   
+  scrollbar-face-color: rgb(25, 212, 66); /**//*立体滚动条的颜色*/   
+  scrollbar-3dlight-color: rgb(255,255,255); /**//*立体滚动条亮边的颜色*/   
+  scrollbar-highlight-color: rgb(255,255,255); /**//*滚动条空白部分的颜色*/   
+  scrollbar-shadow-color: rgb(255,255,255); /**//*立体滚动条阴影的颜色*/   
+  scrollbar-darkshadow-color: rgb(255,255,255); /**//*立体滚动条强阴影的颜色*/   
+  scrollbar-track-color: rgb(255,255,255); /**//*立体滚动条背景颜色*/   
+  scrollbar-base-color:rgb(14, 65, 173); /**//*滚动条的基本颜色*/  
+  
+}
+
+.ulConten{
+  list-style-type: none;
+  position: absolute;
+  /*绝对定位*/
+  top: 0px;
+  right: 4px;
+  bottom: 4px;
+  left :-31px;
+  font-size: 13px;
+  width: 400px;
+  //background-color: white;
+}
+.ulContenItem1{
+  list-style-type: none;
+  position: absolute;
+  // /*绝对定位*/
+  // top: 80px;
+  // right: 4px;
+  // bottom: 4px;
+  left :0px;
+  font-size: 13px;
+  width: 400px;
+  //background-color: white;
+}
+li:hover{
+  background-color: aqua;
+}
+.ulContenItem2{
+  list-style-type: none;
+  position: absolute;
+  // /*绝对定位*/
+  // top: 80px;
+  // right: 4px;
+  // bottom: 4px;
+  left :0px;
+  font-size: 13px;
+  width: 400px;
+  //background-color: white;
+}
+::-webkit-scrollbar-button{/*滚动条两端的按钮，可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果（位置2）*/  
+  display:none;
+  //background:rbg(255,255,255);  
+}  
+::-webkit-scrollbar-track{/*外层轨道，可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果（位置3）*/  
+  border-radius: 0px;
+	background: none; 
+}  
+::-webkit-scrollbar-track-piece { //滚动条凹槽的颜色，还可以设置边框属性
+  background-color:rgb(255,255,255);
+  }
+/*整体部分*/ 
+.treeDiv::-webkit-scrollbar
+{
+	width: 2px;
+	height: 2px;
+}
+/*滑块*/
+::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 6px rgba(11, 138, 53, 0.2);
+	background-color: rgba(7, 148, 243, 0.219)
+}
+/*滑块效果*/ 
+::-webkit-scrollbar-thumb:hover
+{
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2);
+	background-color: rgba(85, 85, 85, 0.4);
+}

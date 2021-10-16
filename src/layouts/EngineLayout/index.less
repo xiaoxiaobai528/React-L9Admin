@@ -1,0 +1,159 @@
+.bodyDiv{
+  background-color: rgb(233, 233, 233);
+}
+.headMainMenu:hover{
+  width: 110px;
+  background-color: rgb(63, 115, 196);
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+.headMainMenu{
+  width: 110px;
+  background-color: rgb(51, 82, 133);
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+.headMainMenuActive{
+  width: 110px;
+  background-color: rgb(63, 115, 196);
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.headDiv {
+  position: fixed;
+  /*固定定位*/
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  //border: 1px solid blue;
+  min-width: 1000px;
+  line-height: 60px;
+  color: white;
+  background-color: rgb(51, 82, 133);
+}
+.headLoginInfo{
+  position: absolute;
+  /*固定定位*/
+  top: 0px;
+  right: 0px;
+  bottom: 00px;
+  left: 500px;
+  width: 200px;
+  //border: 1px solid red;
+  background-color: rgb(133, 51, 58);
+}
+.BtnSedDiv{
+  background-color: rgb(63, 115, 196);
+  border: 1px rgb(63, 115, 196) solid;
+}
+.BtnSedDiv:hover{
+  background-color: rgb(64, 169, 255);
+  border: 1px rgb(64, 169, 255) solid;
+}
+.BtnSedDivActive{
+  background-color: rgb(64, 169, 255);
+  border: 1px rgb(64, 169, 255) solid;
+}
+.TlvDiv{
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background-color: rgb(53,69,103);
+}
+.TlvDiv:hover{
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background-color: rgb(34,49,82);
+}
+.TlvDivActive{
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background-color: rgb(34,49,82);
+}
+.headDiv2 {
+  position: fixed;
+  /*固定定位*/
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 40px;
+  //border: 1px solid blue;
+  background-color: rgb(63, 115, 196);
+  min-width: 1000px;
+}
+.contentDiv {
+  position: fixed;
+  /*固定定位*/
+  top: 110px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(233, 233, 233);
+}
+
+.contentLeft {
+  position: absolute;
+  /*固定定位*/
+  top: 0px;
+  right: 5px;
+  bottom: 70px;
+  left: 1px;
+  width: 200px;
+  //border: 1px solid red;
+  background-color: rgb(53,69,103);
+  overflow-y: auto;/*显示y轴滚动条*/
+  overflow-x: hidden;/*隐藏x轴滚动条*/   
+}
+.contentRight {
+  position: absolute;
+  /*绝对定位*/
+  top: 10px;
+  right: 10px;
+  bottom: 115px;
+  left: 205px;
+  background-color: rgb(232,237,244);
+  //border: 1px solid #006;/* 使用边框，区分内容*/    
+  //overflow-y: scroll;/*显示y轴滚动条*/
+  //overflow-x: scroll;/*隐藏x轴滚动条*/    
+}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+  background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .1);
+  background-color: c8c8c8;
+}
