@@ -95,7 +95,7 @@
 			//debugger;
 			console.info(x1,y1,x2,y2)
 			x1 = x1*1;y1=y1*1;x2=x2*1;y2=y2*1;
-			if(x1 != x2 || y1 != y2){ // 表示移动过
+			if(x1 != x2 || y1 != y2){ // 表示移动过 
 				if(x2 >= x1 ){
 					var xi = Math.abs(x2-x1)+1;
 					var yi = Math.abs(y2-y1)+1;
